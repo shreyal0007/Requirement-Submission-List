@@ -50,7 +50,7 @@ function Category({
           onClick={onRemoveCategory} 
           className="removeCatButton"
         >
-          Delete Requirement
+          Delete Category
         </button>
       </div>
     </div>
