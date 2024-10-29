@@ -1,0 +1,63 @@
+.maindiv{
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    background-color:#e0e0e0 ;
+}
+.exportbutton{
+    font-size: 15px;
+    margin-top: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    height: 2.45rem;
+    width: 20vh;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addCategorybutton{
+    font-size: 15px;
+     margin-top: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    width: 20%;
+    height: 2.45rem;
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categoryPreview{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainheading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.categorypreviewsubdiv{
+    height:fit-content;
+    margin-top: 1rem;
+}
+.categoryheader{
+    font-weight: 800;
+    font-size: 23px;
+    color:gray
+}
+.categorybody{
+    font-weight: 600;
+    font-size: 18px;
+    color:rgb(120, 109, 109);
+    margin-left: 2.5rem;
+}
+@media (max-width: 771px){
+    .maindiv{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
