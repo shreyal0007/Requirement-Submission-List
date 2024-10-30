@@ -35,7 +35,7 @@ function Category({
           />
     
           <RiDeleteBin5Fill
-            onClick={() => onRemoveRequirement(index)} // Call the remove function
+            onClick={() => onRemoveRequirement(index)} 
             className="removeReqButton"
           />
   

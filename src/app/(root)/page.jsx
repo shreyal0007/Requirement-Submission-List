@@ -47,12 +47,20 @@ function Page() {
   };
 
   const exportData = () => {
+    const invalidCategories = categories.some(
+      (category) => category.name.trim() === ""
+    );
     const invalidRequirements = categories.some((category) =>
       category.requirements.some((req) => req.trim() === "")
     );
 
+    if (invalidCategories) {
+      toast.error("Please ensure all category names are filled out.");
+      return;
+    }
+
     if (invalidRequirements) {
-      toast.error("Please ensure all requirements are filled out."); 
+      toast.error("Please ensure all requirements are filled out.");
       return;
     }
 
